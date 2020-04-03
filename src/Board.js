@@ -62,6 +62,7 @@
     },
 
 
+    // eslint-disable-next-line indent
 /*
          _             _     _
      ___| |_ __ _ _ __| |_  | |__   ___ _ __ ___ _
@@ -79,6 +80,16 @@
     //
     // test if a specific row on this board contains a conflict
     hasRowConflictAt: function(rowIndex) {
+      // input: a single row index
+      // output: boolean
+      // relationship: boolean indicates whether there is a conflict at specific row
+
+      // if there are more than 2 queens on this row
+      // return true
+      // if there are 0 or 1 queens on this row
+      // return false
+      debugger;
+      console.log(rowIndex);
       return false; // fixme
     },
 
